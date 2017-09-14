@@ -1,36 +1,55 @@
 body {
     font-family: helvetica, sans-serif;
-  
+    margin: 0 auto;
+    max-width: 600px;
+    background:#232323;
+  }
+  h1 {
+     font-family: 'Londrina Outline', cursive;
+    font-size: 75px;
+    text-align: center;
+    margin: 60px 0 0 0;
+    color:#aaaaaa;
+    
+   }
+   h2 {
+      text-align: center;
+      margin:0px 0 70px 0;
+      color:#bbbbbb;
+   }
+  div {
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    margin: 40px 0 0 0;
+    border-radius: 12px;
   }
   
-    .first{
-  background-image: url("img/firstcourse.jpg");
-  background-size:cover;
-}
-.second{
-  background-image: url("img/secondcourse.jpg");
-  background-size:cover;
-}
-.dessert{
-  background-image: url("img/dessertcourse.jpg");
-  background-size:cover;
-}
-      div {
-        margin: 40px 0 0 0;
-    height: 200px;
-    position:relative;
-    border-radius: 12px;
-    background-size:cover;
+  p {
+    color: rgba(255,255,255,1);
+    background-color:rgba(0,0,0,1);
+    background:-webkit-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,.4));
+    background:-moz-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,.4));
+    
+    padding: 10px;
+    
+    line-height: 28px;
+    text-align: justify;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+  }
+  
+  .first{
+    background-image: url("img/firstcourse.jpg");
+    
+  }
+  .second{
+    background-image: url("img/secondcourse.jpg");
    
-    }
-     p {
-        color: rgba(255,255,255,1);
-         background: rgba(0,0,0,1);
-         line-height: 28px;
-         padding: 10px;
-         text-align: justify;
-         position: absolute;
-         bottom: 0;
-        
-         margin:0;
-         }
+  }
+  .dessert{
+    background-image: url("img/dessertcourse.jpg");
+    
+  }
+  .price {float: right;}
