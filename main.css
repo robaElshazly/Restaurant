@@ -1,0 +1,36 @@
+body {
+    font-family: helvetica, sans-serif;
+  
+  }
+  
+    .first{
+  background-image: url("img/firstcourse.jpg");
+  background-size:cover;
+}
+.second{
+  background-image: url("img/secondcourse.jpg");
+  background-size:cover;
+}
+.dessert{
+  background-image: url("img/dessertcourse.jpg");
+  background-size:cover;
+}
+      div {
+        margin: 40px 0 0 0;
+    height: 200px;
+    position:relative;
+    border-radius: 12px;
+    background-size:cover;
+   
+    }
+     p {
+        color: rgba(255,255,255,1);
+         background: rgba(0,0,0,1);
+         line-height: 28px;
+         padding: 10px;
+         text-align: justify;
+         position: absolute;
+         bottom: 0;
+        
+         margin:0;
+         }
